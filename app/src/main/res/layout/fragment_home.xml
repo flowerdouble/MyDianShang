@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/topClass"
+        layout="@layout/include_main" />
+<com.youth.banner.Banner
+    android:id="@+id/mybanner"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"></com.youth.banner.Banner>
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home_frag_recycler"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
